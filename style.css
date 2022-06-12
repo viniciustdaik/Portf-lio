@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(255, 183, 95);
+    /*rgb(255, 183, 95);*/
+}
+
+/**{
+    border: solid;
+}*/
+
+/*h1{
+    width: 10%;
+    font-family: comic sans ms;
+}*/
+
+h2{
+    font-family: comic sans ms;
+    color:rgb(185, 178, 75);
+}
+
+h3{
+    font-family: comic sans ms;
+    color:brown;
+}
+
+h1{
+    color:turquoise;
+    border: 5px solid rgb(243, 230, 89);
+    /*background-color: rgb(243, 255, 165);*/
+    background-color: rgb(165, 249, 255);
+    border-radius: 50%;
+    width: 10%;
+    font-family: comic sans ms;
+}
+
+.header{
+    background-color: rgb(243, 255, 165);
+}
+
+
+
+.menu{
+    color:turquoise;
+    border: 5px solid rgb(243, 230, 89);
+    /*background-color: rgb(243, 255, 165);*/
+    background-color: rgb(208, 165, 255);
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(43, 181, 22);
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+/*a:link{
+    color:rgb(189, 255, 255);
+}*/
+
+a:visited{
+    color:indianred;
+}
+
+.games img{
+    background-color: white;
+    border-radius: 10%;
+}
+
+.games{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position:relative;
+}
+
+.games h2{
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    transform: translate(0%, 0%);
+    opacity: 0;
+}
+
+.games:hover img{
+    opacity: 0.33;
+}
+
+.games:hover h2{
+    opacity: 1;
+}
